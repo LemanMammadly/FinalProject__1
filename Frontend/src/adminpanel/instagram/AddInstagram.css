@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.addinstagram{
+    padding: 50px 0;
+    margin-top: 90px;
+}
+
+.addinstagram .container {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.addinstagram .content {
+  display: inline-block;
+  text-align: left;
+  background-color: whitesmoke;
+  border-radius: .7em;
+  padding: 3rem 3rem 3rem;
+}
+
+.addinstagram .fld {
+  width: 20em;
+  height: 3rem;
+}
+
+.addinstagram .slt {
+  width: 20.25em;
+  font-weight: bold;
+  height: 3rem;
+  margin-left: -0.3rem;
+}
+
+.addinstagram .slt::placeholder {
+  color: rgb(109, 109, 109);
+}
+
+.addinstagram .fld::placeholder {
+  color: rgba(128, 128, 128, 0.568);
+}
+
+.addinstagram .fld:focus,
+.slt:focus,
+.ta:focus {
+  outline: none;
+  transition: ease 1s;
+  border-bottom-color: black;
+}
+
+.addinstagram .msg,
+.ta {
+  width: 20em;
+  font-family: Rubik, sans-serif;
+  height: 6rem;
+  margin-bottom: 2.5rem;
+  resize: none;
+}
+
+.addinstagram .ta::placeholder {
+  color: rgba(128, 128, 128, 0.568);
+}
+
+.addinstagram #say-hello {
+  text-align: center;
+  font-weight: bold;
+}
+
+.addinstagram .name,
+.services,
+.budget,
+.msg,
+.email {
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+}
+
+.addinstagram label {
+  font-size: small;
+  color: gray;
+}
+
+.addinstagram .fld,
+.ta,
+.slt {
+  border: none;
+  background-color: whitesmoke;
+  font-size: large;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.616);
+}
+
+.addinstagram .btn {
+  border: none;
+  font-weight: bold;
+  width: 22.5rem;
+  margin-top: 20px;
+  background-image: linear-gradient(90deg, rgb(106, 100, 107), rgb(50, 50, 50), rgb(9, 9, 9));
+  border-radius: 2rem;
+  height: 2.5rem;
+  color: whitesmoke;
+}
+
+.addinstagram .btn:hover {
+  transition: ease-in 0.5s;
+  
+}
+

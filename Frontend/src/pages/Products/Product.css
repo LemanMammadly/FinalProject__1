@@ -1,0 +1,78 @@
+#featured{
+    padding: 4rem 0 0 0;
+}
+#featured .top h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+#featured .bottom .btm-text{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+#featured .bottom .btm-text a{
+    text-decoration: none;
+    color: #555;
+}
+
+#featured .bottom .btm-text span{
+    color: #555;
+    margin-top: 10px;
+}
+
+#featured .box{
+    position: relative;
+}
+
+#featured .btn{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+#featured .btn{
+    color: #fff;
+    background-color: #111;
+    padding: 9px 24px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: .5s;
+    margin-top: 7px;
+}
+#featured .btn a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.loadmorediv{
+    width: 400px;
+    margin: auto;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.loadmore{
+    text-align: center;
+    background-color: #111;
+    padding: 15px 35px;
+    border-radius: 30px;
+    font-size: 14px;
+    transition: .5s;
+    margin-top: 7px;
+    margin: auto;
+    color: #fff;
+}
+
+.loadmore:hover{
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #111;
+    text-decoration: none;
+}

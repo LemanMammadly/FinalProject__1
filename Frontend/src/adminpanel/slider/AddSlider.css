@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.addSlider{
+    padding: 50px 0;
+    margin-top: 90px;
+}
+
+.addSlider .container {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.addSlider .content {
+  display: inline-block;
+  text-align: left;
+  background-color: whitesmoke;
+  border-radius: .7em;
+  padding: 3rem 3rem 3rem;
+}
+
+.addSlider .fld {
+  width: 20em;
+  height: 3rem;
+}
+
+.addSlider .slt {
+  width: 20.25em;
+  font-weight: bold;
+  height: 3rem;
+  margin-left: -0.3rem;
+}
+
+.addSlider .slt::placeholder {
+  color: rgb(109, 109, 109);
+}
+
+.addSlider .fld::placeholder {
+  color: rgba(128, 128, 128, 0.568);
+}
+
+.addSlider .fld:focus,
+.slt:focus,
+.ta:focus {
+  outline: none;
+  transition: ease 1s;
+  border-bottom-color: black;
+}
+
+.addSlider .msg,
+.ta {
+  width: 20em;
+  font-family: Rubik, sans-serif;
+  height: 6rem;
+  margin-bottom: 2.5rem;
+  resize: none;
+}
+
+.addSlider .ta::placeholder {
+  color: rgba(128, 128, 128, 0.568);
+}
+
+.addSlider #say-hello {
+  text-align: center;
+  font-weight: bold;
+}
+
+.addSlider .name,
+.services,
+.budget,
+.msg,
+.email {
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+}
+
+.addSlider label {
+  font-size: small;
+  color: gray;
+}
+
+.addSlider .fld,
+.ta,
+.slt {
+  border: none;
+  background-color: whitesmoke;
+  font-size: large;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.616);
+}
+
+.addSlider .btn {
+  border: none;
+  font-weight: bold;
+  width: 22.5rem;
+  margin-top: 20px;
+  background-image: linear-gradient(90deg, rgb(106, 100, 107), rgb(50, 50, 50), rgb(9, 9, 9));
+  border-radius: 2rem;
+  height: 2.5rem;
+  color: whitesmoke;
+}
+
+.addSlider .btn:hover {
+  transition: ease-in 0.5s;
+  
+}
+

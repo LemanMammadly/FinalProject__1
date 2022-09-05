@@ -1,0 +1,36 @@
+.logodetail {
+    display: flex !important;
+    margin-bottom: 50px;
+}
+
+.logodetail .table{
+    margin-top: 40px;
+    margin-right: 60px !important;
+
+}
+.logodetail .imgg{
+    width: 100px;
+}
+.logodetail img {
+    height: 200px;
+    width: 300px;
+}
+.logodetail table {
+    border: 0px solid #C1DAD7;
+}
+.logodetail img{
+    height: auto;
+    object-fit: cover;
+    width: 40%;
+}
+
+.logodetail .btn1{
+    background-color: rgb(220, 216, 216) !important;
+    color: #333;
+}
+
+.logodetail .btn2{
+    color: #fff;
+    background-color:#333 !important;
+}
+

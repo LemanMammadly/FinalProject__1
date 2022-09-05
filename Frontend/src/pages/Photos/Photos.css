@@ -1,0 +1,42 @@
+#category{
+    margin-top: 40px;
+}
+
+#category .all{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+#category .img-cat{
+    position: relative;
+    overflow: hidden;
+   
+}
+#category .img-cat{
+    margin-bottom: 30px;
+}
+#category img:hover{
+    transform: scale(1.1);
+    transition: 0.9s;
+}
+
+#category .textcat{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+#category a{
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.827);
+    color: #333;
+    font-size: 16px;
+    padding: 15px 55px;
+    transition: 0.5s;
+}
+#category a:hover{
+    background-color: #002A5C;
+    color: #fff;
+}

@@ -1,0 +1,43 @@
+.instagram {
+    padding: 60px 0;
+}
+.instagram h3{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.instagram .bottom img{
+    width: 300px;
+}
+.instagram .bottom .imgs{
+    position: relative;
+}
+.instagram .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+    transition: .9s;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.60);
+    width: 90%;
+    height: 100%;
+}
+.instagram .text span i{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.instagram .text p{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.instagram .text span p{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.instagram .bottom .imgs:hover .text{
+    opacity: 1;
+}

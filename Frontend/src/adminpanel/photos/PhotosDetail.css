@@ -1,0 +1,39 @@
+.photosdetail {
+    display: flex !important;
+    margin-bottom: 50px;
+}
+
+.photosdetail .table{
+    margin-top: 40px;
+    margin-right: 60px !important;
+
+}
+.photosdetail .imgg{
+    width: 100px;
+}
+.photosdetail img {
+    height: 200px;
+    width: 300px;
+}
+.photosdetail table {
+    border: 0px solid #C1DAD7;
+}
+.photosdetail img{
+    height: auto;
+    object-fit: cover;
+    width: 40%;
+}
+
+.photosdetail .btn1{
+    background-color: rgb(220, 216, 216) !important;
+    color: #333;
+}
+
+.photosdetail .btn2{
+    color: #fff;
+    background-color:#333 !important;
+}
+
+.photosdetail .btnn{
+    margin-top: 55px;
+}

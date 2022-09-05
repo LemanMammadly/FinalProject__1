@@ -1,0 +1,89 @@
+footer{
+    background-color: #F0F0F0;
+    padding: 4rem 0;
+}
+footer .top a{
+    transition: 0.5s;
+}
+footer .top a:hover{
+    color: #E55540;
+}
+
+footer .top h4{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #222222;
+}
+footer .touch h4{
+    margin-bottom: 40px;
+}
+footer p{
+    font-size: 13px;
+    color: #888888;
+}
+footer a i{
+    margin-right: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+footer a i:hover{
+    color: #E55540;
+}
+footer .all-links a{
+    text-decoration: none;
+    color: #888888;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+footer input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(36, 36, 36, 0.1);
+    margin-top: 30px;
+    transition: .5s;
+}
+
+footer input:focus{
+    border-bottom: 1px solid #E55540;
+}
+
+footer input:focus::placeholder{
+    color: transparent;
+}
+footer .btnn{
+    background-color: #222222;
+    padding:10px 15px;
+    color: #F0F0F0;
+    border-radius: 50px;
+    width: 60%;
+    margin-top: 25px;
+    border: none;
+    transition: .5s;
+}
+footer .btnn:hover{
+    background-color: #E55540;
+}
+
+footer .newsletter{
+    margin-bottom: 25px;
+}
+footer .text{
+    font-size: 13px;
+    color: #888888;
+}
+footer .bottom .img{
+    margin-top: 50px;
+}
+footer .bottom .text{
+    margin-top:25px ;
+}
+
+@media(max-width:576px){
+    footer h4{
+        margin-top: 25px;
+    }
+}

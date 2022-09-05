@@ -1,0 +1,63 @@
+.alldivcount{
+    background-color: #fff;
+    padding: 60px;
+}
+
+
+
+.alldivcount .coming-soon{
+    min-height: 40vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.alldivcount .countdown{
+    display: flex ;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.alldivcount .img1{
+    height: 70vh;
+    width: 550px;
+    object-fit: cover;
+}
+ 
+
+.alldivcount .time{
+    padding: 20px 40px;
+    border: 3px solid #87879953;
+}
+
+.alldivcount .right{
+    text-align: center;
+    margin-top: 100px;
+}
+.alldivcount .h5{
+    margin-bottom: 50px;
+    font-weight: bold;
+    color: #878799ab;
+    font-size: 30px;
+    font-family: monospace;
+}
+.alldivcount .timer{
+    color: #9cafe7;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:monospace
+}
+
+.alldivcount .white{
+    position: relative;
+    width: 550px;
+    height: 70vh;
+    background-color: #fff;
+}
+
+.alldivcount .countdowndiv{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
