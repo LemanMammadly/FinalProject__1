@@ -40,3 +40,12 @@
     background-color: #002A5C;
     color: #fff;
 }
+
+@media(max-width:576px){
+    .category .all{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

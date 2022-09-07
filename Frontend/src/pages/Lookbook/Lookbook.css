@@ -1,9 +1,7 @@
 .alldivcount{
     background-color: #fff;
-    padding: 60px;
+    padding: 30px;
 }
-
-
 
 .alldivcount .coming-soon{
     min-height: 40vh;
@@ -60,4 +58,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+@media(max-width:576px){
+    .alldivcount .time{
+        width: 300px;
+    }
 }

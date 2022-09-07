@@ -29,14 +29,16 @@ const Modal = ({image,title,price,hide}) => {
                    <img src={image}  alt="" />
                    </div>
                    <div className="text col-lg-5">
-                   <p className='title'>{title}</p>
-                    <p className='price'>{price} AZN</p>
+                   <p className='title col-8'>{title}</p>
+                    <p className='price col-3'>{price} AZN</p>
                    </div>
-                   <div className="btn">
-                    <NavLink to="/">ADD TO CARD</NavLink>
+                </div>
+                <div className="btns">
+                <div className="btn col-lg-5">
+                    <NavLink className="btntext" to="/">ADD TO CARD</NavLink>
                     </div>
-                    <div className="btnn">
-                    <NavLink to="/">READ MORE</NavLink>
+                    <div className="btnn col-lg-5">
+                    <NavLink className="btntext" to="/">READ MORE</NavLink>
                     </div>
                 </div>
                 </div>

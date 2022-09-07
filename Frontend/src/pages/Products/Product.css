@@ -1,5 +1,5 @@
 #featured{
-    padding: 4rem 0 0 0;
+    padding: 2rem 0 0 0;
 }
 #featured .top h3{
     text-align: center;
@@ -52,7 +52,7 @@
 }
 
 .loadmorediv{
-    width: 400px;
+    width: 200px;
     margin: auto;
     margin-bottom: 80px;
     text-align: center;
@@ -75,4 +75,14 @@
     background-color: #fff;
     border: 1px solid #111;
     text-decoration: none;
+}
+
+
+@media(max-width:576px){
+    #featured .alldv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
