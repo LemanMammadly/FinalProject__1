@@ -29,7 +29,7 @@ const Product = () => {
     <> 
     <section id='featured'>
     <div className="container">
-      <div className="row alldv justify-content-between">
+      <div className="row justify-content-between">
         <div className="top">
           <h3>FEATURED PRODUCTS</h3>
         </div>

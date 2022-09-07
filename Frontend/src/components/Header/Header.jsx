@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState }  from 'react'
-import { NavLink, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import './Header.css'
 
 const Header = () => {
@@ -48,7 +48,7 @@ const Header = () => {
                         <a className="red" href="/sale">Sale</a>
                         <a href="/features">Features</a>
                         <a href=".blog">Blog</a>
-                        <NavLink to="/about">About</NavLink>
+                        <a href="/about">About</a>
                         <a href="/contact">Contact</a>
                     </div>
                 </div>

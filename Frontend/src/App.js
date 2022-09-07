@@ -22,7 +22,6 @@ import UpdateLogo from './adminpanel/Logo/UpdateLogo';
 import SetingsDetail from './adminpanel/settingss/SetingsDetail';
 import UpdateSetting from './adminpanel/settingss/UpdateSetting';
 import SideBarDrop from './components/SideBarDropdown/SideBarDrop';
-import About from './pages/About/About';
 
 function App() {
   
@@ -50,7 +49,6 @@ function App() {
       <Route path='/settingdetail' element={<SetingsDetail/>}/>
       <Route path='/updatesettings/:id' element={<UpdateSetting/>}/>
       <Route path='/sidebardrop' element={<SideBarDrop/>}/>
-      <Route path='/about' element={<About/>}/>
     </Routes>
     <Footer/>
    </BrowserRouter>
